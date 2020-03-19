@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584596697974.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "559FE33E",
+    "lastKnownWriteTime" : 1584600342,
+    "last_content_update" : 1584600342052,
+    "path" : "C:/IOT/Rwork/RWork/dataframe2.R",
+    "project_path" : "dataframe2.R",
+    "properties" : {
+        "cursorPosition" : "31,23",
+        "scrollLine" : "15",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

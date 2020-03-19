@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584595022886.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3754074795",
+    "id" : "3F979EB3",
+    "lastKnownWriteTime" : 1584595789,
+    "last_content_update" : 1584595789576,
+    "path" : "C:/IOT/Rwork/RWork/matrix_exam.R",
+    "project_path" : "matrix_exam.R",
+    "properties" : {
+        "cursorPosition" : "10,11",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

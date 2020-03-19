@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584591019102.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5D56AE",
+    "lastKnownWriteTime" : 1584595769,
+    "last_content_update" : 1584595769062,
+    "path" : "C:/IOT/Rwork/RWork/matrix.R",
+    "project_path" : "matrix.R",
+    "properties" : {
+        "cursorPosition" : "22,43",
+        "scrollLine" : "12",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
