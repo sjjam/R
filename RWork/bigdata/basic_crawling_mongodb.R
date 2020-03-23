@@ -2,6 +2,11 @@ install.packages("mongolite")
 library("stringr")
 library("mongolite") #라이브러리 올릴때는 ""해도 되고 안해도 된다.
 
+#mongodb에 저장하기 위해서는 크롤링해야 한다.
+con <- mongo(collection = "crawl",
+             db = "bigdata",
+             url = "mongodb://127.0.0.1")
+
 url <- "https://www.clien.net/service/group/community?&od=T31&po=0"
 url_data <- readLines(url,encoding = "UTF-8")
 url_data
@@ -49,9 +54,35 @@ url_val
 final_data <- cbind(title,hit,url_val)
 final_data
 write.csv(final_data,"crawl_data.csv")
+#R에서 사용하는 형식으로 저장(빠르다)
+save(final_data,file = "crawl_data.RData")
 length(title)
 length(hit)
 length(url_val)
+
+####mongodb에 저장하기####
+if(con$count()>0){
+  con$drop()
+}
+final_data
+class(final_data)
+##mongodb에 데이터를 저장하기 위해서 dataframe으로 변환
+final_data <- data.frame(final_data)
+final_data
+class(final_data)
+con$insert(final_data)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
